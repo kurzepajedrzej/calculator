@@ -1,0 +1,3 @@
+FROM appbuildimage:latest
+
+RUN make test
