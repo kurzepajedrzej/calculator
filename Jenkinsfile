@@ -82,7 +82,7 @@ pipeline {
                 sh 'mkdir  publish_folder'
                 sh 'rm -f publish_folder*.tar.gz'
                 sh 'cp -r /output/src ./publish_folder/' 
-                sh 'cp /output/build_cmake/CMakeLists.txt ./publish_folder/'
+                sh 'cp /output/CMakeLists.txt ./publish_folder/'
                 sh 'cp /output/Makefile ./publish_folder'
             }
         }
